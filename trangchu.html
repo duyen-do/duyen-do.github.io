@@ -1,0 +1,244 @@
+<!-- Author NDTPRO -->
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+
+    <link rel="shortcut icon" href="assets/image/favicon-d.png" type="image/x-icon">
+
+    <!-- font -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+
+    <!-- css -->
+    <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- jquery script -->
+    <script src="vendor/jquery-3.5.0/jquery-3.5.0.min.js"></script>
+
+    <!-- olw-carousel plugins -->
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/animate.css">
+
+    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <header id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="col-5 col-logo">
+                    <a href="trangchu.html"><img src="assets/image/logo-d.png" alt="logo" width="64px"></a>
+                </div>
+                <div class="col-menu-right">
+                    <a href="dangnhap.html"><i class="fa fa-user-circle-o"></i></a>
+                    <a href="giohang.html"><i class="fa fa-shopping-cart"></i></a>
+                </div>
+                <div class="col-7 col-info">
+                    <div class="cart-info">
+                        <div class="cart-icon"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="cart-count">0</div>
+                        <div class="cart-products" style="display: none;">
+                            <div id="cart-products">
+                                <!-- ds sản phẩm ở đây -->
+                            </div>
+                            <div class="footer">
+                                <span class="total left">Tổng tiền:</span>
+                                <span class="total right"></span>
+                                <a href="#" class="btn btn-outline-primary left">Xem giỏ hàng</a>
+                                <a href="#" class="btn btn-outline-danger right">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navholder">
+                        <nav class="subnav">
+                            <ul>
+                                <li><i class="fa fa-phone"></i><a href="#">0386420310</a></li>
+                                <li><a href="dangky.html">Đăng ký</a></li>
+                                <li><a href="dangnhap.html">Đăng nhập</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header_line">
+                            <p>Cam kết chỉ bán hàng chính hãng, nói không với replica, fake...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu" id="ontop">
+            <div class="container">
+                <div class="row">
+                    <div class="navmenu">
+                        <!-- MENU IN DESKTOP DEVICE -->
+                        <ul>
+                            <li><a href="trangchu.html" class="active">Trang chủ</a></li>
+                            <li class="dropdown">
+                                <a href="#">Sản phẩm <span class="sub-arrow">...</span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Adidas</a></li>
+                                    <li><a href="#">Nike</a></li>
+                                    <li><a href="#">Vans</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-search">
+                        <input type="text" class="search" placeholder="Bạn muốn tìm gì?">
+                        <i class="fa fa-search"></i>
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidenav">
+            <!-- MENU IN MOBILE DEVICE -->
+            <div class="side-menu">
+                <div class="side-header">
+                    MENU
+                    <span class="close">&times;</span>
+                </div>
+                <div class="side-body">
+                    <ul>
+                        <li><a href="#" class="active">Trang chủ</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="open">Sản phẩm <span class="sub-arrow">...</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">Nike</a></li>
+                                <li><a href="#">Vans</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                    </ul>
+                </div>
+                <div class="side-footer">
+                    <i class="fa fa-commenting-o"></i> Design by Toàn Nguyễn
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <!-- slideshow -->
+        <div class="slideshow owl-carousel owl-theme">
+            <div class="item">
+                <a href="#"><img src="assets/image/slideshow/slideshow-d-1.jpg" alt="slide-1"></a>
+            </div>
+            <div class="item">
+                <a href="#"><img src="assets/image/slideshow/slideshow-d-2.jpg" alt="slide-2"></a>
+            </div>
+            <div class="item">
+                <a href="#"><img src="assets/image/slideshow/slideshow-d-3.jpg" alt="slide-3"></a>
+            </div>
+        </div>
+
+        <!-- content -->
+        <div class="title-line">
+            Sản phẩm nổi bật
+            <div class="line"></div>
+        </div>
+
+        <div class="row list-product" id="hot-products">
+            <!-- ds sản phẩm nổi bật ở đây -->
+        </div>
+
+        <div class="row text-center mt-3 mb-3">
+            <a href="#" class="btn btn-small btn-shadow btn-outline-primary">Xem thêm</a>
+        </div>
+
+        <div class="row line"></div>
+
+        <div class="title-line">
+            Sản phẩm bán chạy
+            <div class="line"></div>
+        </div>
+
+        <div class="row list-product" id="bestsale-products">
+            <!-- ds sản phẩm bán chạy ở đây -->
+        </div>
+
+        <div class="row text-center mt-3 mb-3">
+            <a href="#" class="btn btn-small btn-shadow btn-outline-primary">Xem thêm</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <img src="assets/image/logo-d.png" alt="logo" width="64px">
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <p>Địa chỉ đâu đó không ai biết...</p>
+                    <p class="mb-3">Phục vụ khách hàng 24/7</p>
+                    <p>
+                        <i class="fa fa-envelope-o"></i> <a href="mailto:toannguyen080199@gmail.com">toannguyen080199@gmail.com</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-phone-square"></i> <a href="#">0386420310</a>
+                    </p>
+                    <p class="text-uppercase">
+                        <i class="fa fa-check-square-o"></i> Cam kết chỉ bán hàng chính hãng, nói không với replica, fake...
+                    </p>
+                </div>
+                <div class="col-4">
+                    <h3>Thông tin D-Shop</h3>
+                    <p><a href="#">Giới thiệu</a></p>
+                    <p><a href="#">Điều khoản sử dụng</a></p>
+                    <p><a href="#">Chính sách bảo mật</a></p>
+                    <p><a href="#">Thông tin liên hệ</a></p>
+                </div>
+                <div class="col-4">
+                    <h3>Theo dõi chúng tôi tại</h3>
+                    <a href="https://facebook.com/BeDin2000" class="social-icon" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/ToanNguyen0801x" class="social-icon" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="mailto:duyendklop9a1@gmail.com" class="social-icon" target="_blank"><i class="fa fa-google"></i></a>
+                    <a href="https://www.youtube.com/channel/UCXs1TK0Kpw_SgfDC7_1SP3g?view_as=subscriber" class="social-icon" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/dinzinn_05/?hl=vi" class="social-icon" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <p>
+                        <a href="https://facebook.com/ndtpro.99" class="btn btn-success" target="_blank">Liên hệ thiết kế</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Copyright © 2020 D-Shop. Design by <a href="https://facebook.com/ndtpro.99">Toàn Nguyễn</a> <span id="test"></span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll_top">
+        <a href="#top" class="social-icon"><i class="fa fa-arrow-up"></i></a>
+    </div>
+</body>
+
+<!-- other script -->
+<script src="assets/js/plugin.js"></script>
+<script src="assets/js/ndtpro.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/slideshow.js"></script>
+
+</html>
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-3"></div>
+    <div class="col-3"></div>
+    <div class="col-3"></div>
+</div>
