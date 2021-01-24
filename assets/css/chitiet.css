@@ -1,0 +1,174 @@
+.nav-menu ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.nav-menu ul li a {
+    position: relative;
+    display: block;
+    padding: 10px 14px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.gallery .image-view {
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin-bottom: 3px;
+}
+
+.gallery .image-view img {
+    width: 100%;
+}
+
+.gallery .image-list img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    padding: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.gallery .image-list img:hover,
+.gallery .image-list img.active {
+    border-color: var(--color-primary-hover);
+}
+
+span.view-color {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+i.view-color.active {
+    border: 2px solid var(--color-success);
+}
+
+.custom-radio {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-radio input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.custom-radio:hover input[type=radio]~.checkmark {
+    border-color: var(--color-success);
+}
+
+.custom-radio input[type=radio]:checked~.checkmark {
+    opacity: 0.5;
+    border-color: var(--color-success);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-radio input[type=radio]:checked~.checkmark:after {
+    display: block;
+}
+
+.custom-radio .checkmark:after {
+    top: 8px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-success);
+}
+
+.clearfix {
+    clear: both;
+}
+
+select.form-control {
+    height: 36px;
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    text-indent: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input.form-control {
+    height: 36px;
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    text-indent: 10px;
+    display: block;
+}
+
+.form-sm {
+    width: 100px !important;
+}
+
+.form-md {
+    width: 200px !important;
+}
+
+.product-title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.product-title p {
+    font-size: 12px;
+}
+
+.product-price {
+    color: var(--color-danger);
+    font-size: 24px;
+    padding: 14px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+.product-option {
+    padding-top: 9px;
+    font-weight: bold;
+}
+
+.product-option p {
+    margin-bottom: 4px;
+}
+
+.product-description {
+    padding: 14px 0;
+    border-bottom: 1px dotted #ccc;
+}
